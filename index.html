@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Cunningham's</title>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link href="styles/main.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#togglemenu").click(function(){
+					$(".menu").toggle(250);
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#toggleabout").click(function(){
+					$(".about").toggle(250);
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#toggledirections").click(function(){
+					$(".directions").toggle(250);
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#toggleevents").click(function(){
+					$(".events").toggle(250);
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<img class="header-img" src="images/logo-w-blue.png" alt="cunningham's logo">
+		</div>
+		<div class="container">
+			<div class="headertext">Click section headers to expand or collapse.</div>
+					<h1 class="header-titles" id="togglemenu">Menu</h1>
+						<div class="menu startcollapsed">
+							<div class="menu-appetizers">
+								<h2 class="menu-section-title">Appetizers</h2>
+								<ul class="menu-items">
+									<li class="menu-item">
+										<h4 class="menu-item-title">Maryland Crab Soup</h4>
+										<p class="menu-item-desc">Summer vegetables, tomato, lump crab.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Rose</span>, chateau des deux rocs, languedoc, france 2013</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Spring Greens Salad</h4>
+										<p class="menu-item-desc">spring greens, strawberry, candied walnut, english peas, poppy seed vinaigrette.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Sauvignon Blanc</span>, eil ellis, sincerely, western cape, south africa 2014</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Cornmeal Fried Oysters</h4>
+										<p class="menu-item-desc">housemade bacon, arugula, garlic-dijon cream.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Albarino</span>, deusa nai, rias baixas, spain 2012</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Roasted Beet Salad</h4>
+										<p class="menu-item-desc">pickled beets, pine nut butter, greens, pine nuts.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Rose</span>, chateau des deux rocs, languedoc, france 2013</p>
+									</li>
+								</ul>
+							</div>
+
+							<div class="menu-entrees">
+								<h2 class="menu-section-title">Entrees</h2>
+								<ul class="menu-items">
+									<li class="menu-item">
+										<h4 class="menu-item-title">Roasted Chicken Breast</h4>
+										<p class="menu-item-desc">carrot puree, brown butter cabbage, bacon & mushroom jus.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Chianti style blend</span>, bibbiano, di fattoria, tuscany, italy 2010</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Grilled Salmon Summer Salad</h4>
+										<p class="menu-item-desc">brown sugar glazed salmon, roasted corn, edamame, heirloom tomato, crumbled goat cheese, champagne vinaigrette.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Pinot Noir</span>, anglewood, neuquen, patagonia, argentina 2012</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">7 oz Flat Iron Steak</h4>
+										<p class="menu-item-desc">duck fat fried smashed potatoes, pickled onion, micro greens.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Grenache blend</span>, bois de saint jean, cunningham's cuvee, cotes du rhone, france 2012</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Carne Supremo Flatbread</h4>
+										<p class="menu-item-desc">tomato sauce, mozzarella, asiago, caramelized onion, sopressata, fennel sausage, pepperoni.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Syrah blend</span>, sentinelle de massiac, minervois, languedoc, france 2014</p>
+									</li>
+								</ul>
+							</div>
+
+							<div class="menu-desserts">
+								<h2 class="menu-section-title">Desserts</h2>
+								<ul class="menu-items">
+									<li class="menu-item">
+										<h4 class="menu-item-title">Vanilla Creme Brulee</h4>
+										<p class="menu-item-desc">vanilla custard, crispy tuile, berries, coconut sugar.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Madeira</span>, broadbent, five year reserve, malmsey, portugal</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Peachy Summer Crisp</h4>
+										<p class="menu-item-desc">local blueberries, peaches, vanilla ice cream.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Sauternes-style blend</span>, chateau la rame, saint-croix-du-mont, bordeaux, france 2010</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Chocolate Bar</h4>
+										<p class="menu-item-desc">tcho milk chocolate mousse, ceremony coffee ice cream, raspberry tuile.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Port</span>, churchill's, late bottle vintage, douro, portugal 2005</p>
+									</li>
+									<li class="menu-item">
+										<h4 class="menu-item-title">Trio of Ice Cream or Sorbet</h4>
+										<p class="menu-item-desc">served with housemade cookies.</p>
+										<p class="menu-item-pairing"><span class="pairing-type">Sherry</span>, lustau, east india solera, jerez, spain</p>
+									</li>
+								</ul>
+							</div><br>
+						</div>
+
+
+					<h1 class="header-titles" id="toggleabout">About</h1>
+						<div class="about startcollapsed">
+							<p class="about-text">Cunningham's is a seasonal American grille that blends the modern atmosphere of city dining with the rustic, smoky flavors of the countryside. Using a wood-fired grill and oven, we provide guests with dishes created from the freshest seasonal and local ingredients possible. We believe that an excellent dining experience is built on thoughtful, attentive service and sourcing products that are grown and crafted responsibly. Each of these aspects contributes to our mission of providing our guests with an unmatched dining experience. We hope that you will visit us soon!</p>
+
+							<p class="about-text">In our kitchen, we prepare as much as possible in house, taking time and care with all of our ingredients. This attention to detail allows us to build deep flavor in our stocks and sauces, to offer incredible pates and charcuterie, bake fresh bread daily, and provide an amazing array of desserts. Following the lead of our kitchen, our cocktails are similarly handcrafted using housemade ingredients whenever possible. Our wine and beers are selected mainly from small producers, with an emphasis on supporting Maryland breweries.</p>
+
+							<div class="chef-section-title">Our Team</div>
+							<div id="chefs-container">
+								<div class="chefs"><img src="images/chefs/chris-becker.jpg" alt="chris becker">
+									<div class="chef-name">CHRIS BECKER</div>
+										<div class="chef-title">Chief Executive Officer & Corporate Executive Chef</div>
+										<div class="chef-desc">A Baltimore native and veteran of several of the city's most highly-regarded restaurants, Chef Becker oversees daily operations for all of the Bagby Restaurant Group restaurants including Bagby Pizza Company, Ten Ten American Bistro, Fleet Street Kitchen, Cunningham's and Cunningham's Cafe & Bakery.</div></div>
+
+								<div class="chefs">
+								<img src="images/chefs/jason-lear.jpg" alt="jason lear">
+									<div class="chef-name">JASON LEAR</div>
+										<div class="chef-title">Executive Chef</div>
+										<div class="chef-desc">Another Baltimore native, Jason has spent time in kitchens all over Maryland. After graduating from the Culinary Institute of America in Hyde Park, New York, Jason began his career on the Eastern Shore at the Tilghman Island Inn. After a stint in Plainfield, New Hampshire at the Home Hill Inn - a Relais & Chateaux property - he returned to Baltimore plying his trade at several notable restaurants including Peerce's Plantation, Bistro RX and The Wine Market.</div></div>
+
+								<div class="chefs">
+								<img src="images/chefs/angie-lee.jpg" alt="angie law">
+									<div class="chef-name">ANGIE LAW</div>
+										<div class="chef-title">Executive Pastry Chef</div>
+										<div class="chef-desc">Chef Angie Law's passion for food began in the kitchen of her mother's small family-run restaurant, where she would help whenever she could after school. Following her love of cooking, she decided to attend Penn State, where she graduated with a degree in food science, and then went on to perfect her culinary skills at L'Academie de Cuisine in Gaithersburg, MD.</div></div>
+
+								<div class="chefs">
+									<div class="chef-name">JOHN AVERSA</div>
+										<div class="chef-title">Head Baker</div>
+										<div class="chef-desc">A native of Columbia, Maryland, John has been baking bread since his childhood. Growing up with a father who was an avid baker, he became accustomed to baking each and every weekend, drawn to the rigor and precision of the process. Thus, when he decided to attend Baltimore International College, it was only natural that he he gravitated toward their baking program, where he excelled, graduating in 2000.</div></div>
+
+								<div class="chefs">
+									<div class="chef-name">TIM RILEY</div>
+										<div class="chef-title">Beverage Director</div>
+										<div class="chef-desc">A Baltimore native, Tim brings an intense passion for beverage service and an extensive knowledge of wine, beer, spirits and coffee to his position at Cunningham's. An honors graduate of the Culinary Institute of America, Tim has worked all over the East Coast. His experience includes stints with Chef Cindy Wolf at both Charleston and Petit Louis in Baltimore; at the Statler Hotel in Ithaca, New York; at the Renaissance Waterfront Hotel in Boston, and at Beacon Grille in Woburn, Massachusetts.</div></div>
+
+								<div class="chefs">
+									<div class="chef-name">RYAN SHACOCHIS</div>
+										<div class="chef-title">Director of Restaurant Operations</div>
+										<div class="chef-desc">A devoted hospitality professional, Ryan began his education in service and hospitality in Cape Cod, Massachusetts while working at restaurants such as Ciro & Sal's, The Governor Bradford, and The Mews. He further refined his approach to service at two well-known Baltimore restaurants: Vespa in Federal Hill, and The Wine Market in Locust Point. During his years at The Wine Market, Ryan rose from his position as Assistant General Manager to General Manager. There, he oversaw the operation of both the restaurant and wine shop, and worked closely with both Chef Chris Becker and Chef Jason Lear to develop seasonal and local menus. During that time, his culinary insights and dining advice were featured in both Baltimore Style and Baltimore Magazine.</div></div>
+							</div><br><br>
+						</div>
+
+
+					<h1 class="header-titles" id="toggleevents">Events</h1>
+						<div class="events startcollapsed">
+							<div class="events-container">
+								<div class="event">
+									<div class="event-title">THE BERINGER NAPA VALLEY WINE DINNER</div>
+									<div class="event-tag">Five Courses | $79 plus tax & gratuity</div>
+									<div class="event-desc">Discover the exceptional Napa Valley wines from Beringer Vineyards at our next seasonal wine dinner! Featuring five courses from Cunningham's talented chefs, Beverage Director Tim Riley has selected some of Beringer's most exceptional vintages to pair with the dinner. As Robert Parker put it, "After years of visiting the world's best wine producers, I cannot think of too many cellars where I have walked out shaking my head at such an extraordinary range of quality."</div>
+								</div>
+								<div class="event">
+									<div class="event-title">CUNNINGHAM'S CAFE'S OKTOBERFEST</div>
+									<div class="event-tag">Four Courses | $44 plus tax & gratuity</div>
+									<div class="event-desc">Cunningham's Cafe is excited to announce their next seasonal Supper Series dinner... a beautiful beer paired Oktoberfest! Featuring German-inspired dishes with ingredients from our own Cunningham Farms and paired with seasonal craft beers, this culinary experience is the perfect way to enjoy and taste the Fall season! Join us and purchase your tickets today!</div>
+								</div>
+
+								<div class="event">
+									<div class="event-title">HALF-PRICED WINE NIGHT</div>
+									<div class="event-tag">Every Tuesday</div>
+									<div class="event-desc">Enjoy 50% off on bottles from our extensive wine list. Ask your server what wine would be best with your dinner this evening.
+									</div>
+								</div>
+
+								<div class="event">
+									<div class="event-title">NEIGHBORHOOD NIGHT</div>
+									<div class="event-tag">Every Sunday</div>
+									<div class="event-desc">Enjoy 20% off entrees and 20% off bottles of wine every Sunday night... A little token of our appreciation to our local community and patrons.
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+
+					<h1 class="header-titles" id="toggledirections">Contact & Directions</h1>
+						<div class="directions">
+							<div class="direction-body">
+							<a href="http://facebook.com/CunninghamsMD"><img src="images/social/fb.png" onmouseover="this.src='images/social/fb-mouseover.png'" onmouseout="this.src='images/social/fb.png'" alt="Facebook"/></a>
+							<a href="http://www.twitter.com/cunninghamsMD"><img src="images/social/twitter.png" onmouseover="this.src='images/social/twitter-mouseover.png'" onmouseout="this.src='images/social/twitter.png'" alt="Twitter"/></a>
+
+							<a href="https://foursquare.com/v/cunninghams/527bdf35498e1fe1585710f6"><img src="images/social/foursquare.png" onmouseover="this.src='images/social/4s-mo.png'" onmouseout="this.src='images/social/foursquare.png'" alt="Foursquare"/></a>
+
+							<a href="http://www.yelp.com/biz/cunninghams-towson"><img src="images/social/yelp.png" onmouseover="this.src='images/social/yelp-mo.png'" onmouseout="this.src='images/social/yelp.png'" alt="Yelp"/></a>
+
+
+							</div>
+						</div>
+						<div class="directions">
+							<div class="direction-body">
+								<img class="seal" src="images/footer-seal.png" alt="seal">
+								<p class="direction-text">1 Olympic Pl, Towson, MD 21204<br>
+								<span class="telephone">(410) 339-7730</span>
+							</div>
+
+							<div class="direction-body">
+								<p class="hour-text">Monday - Thursday
+								5:00 pm - 10:00 pm<br>
+
+								Friday - Saturday
+								5:00 pm - 11:00 pm<br>
+
+								Sunday
+								5:00 pm - 9:00 pm
+							</div>
+
+							<div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.9427222052427!2d-76.60502082014617!3d39.40280187959626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80fae9399d115%3A0x1db1c211e0674fe6!2s1+Olympic+Pl%2C+Towson%2C+MD+21204!5e0!3m2!1sen!2sus!4v1446578975432' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
+						</div>
+
+						</div>
+
+		</div>
+	</body>
+</html>

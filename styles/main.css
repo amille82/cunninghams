@@ -1,0 +1,392 @@
+body {
+	margin: 0;
+	background: #000000;
+	background-image: url('../images/nav-pattern.png');
+}
+
+.header {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+
+.header-img {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	font-family: 'Josefin Sans', sans-serif;
+	background: #2f2f2f;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+@media (min-width: 650px) { /* this happens when the web frame is larger than 650px */
+	.container {
+		font-family: 'Josefin Sans', sans-serif;
+		background: #2f2f2f;
+		width: 90%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}
+
+
+@media (max-width: 500px) { /* starts sections toggled collapsed as long as screen width is less than 500px */
+	.startcollapsed {
+		display: none;
+	}
+}
+
+.headertext {
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+	background: #000000;
+}
+
+
+@media (min-width: 500px) { /*shows header text as long as screen is less than 500px */
+	.headertext {
+		color: #ffffff;
+		display: none;
+		text-align: center;
+		padding: 5px;
+		background: #000000;
+	}
+}
+
+.header-titles {
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border-left: 20px solid;
+	border-right: 20px solid;
+	border-color: #6baeaa;
+}
+
+
+.menu-section-title {
+	color: #6baeaa;
+	background: #000;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	border-left: 5px solid;
+	border-color: #6baeaa;
+}
+
+.menu-items {
+	margin-left: 0;
+	list-style: none;
+}
+
+.menu-item {
+
+}
+
+.menu-item + .menu-item { /* targets the element only if it follows another element of the same type */
+	margin-top: 15px;
+}
+
+.menu-item-title {
+	color: #6baeaa;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.menu-item-desc {
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0px;
+	color: #fff;
+	text-transform: lowercase;
+	margin: 0;
+	padding-right: 10px;
+}
+
+.menu-item-pairing {
+	padding-right: 10px;
+	line-height: 16px;
+	letter-spacing: 0px;
+	margin: 0;
+	color: #7a7a7a;
+	font-size: 12px;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+.pairing-type {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-style: normal;
+}
+
+.about-text {
+	color: #fff;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 16px;
+	text-align: justify;
+}
+
+.chef-section-title {
+	color: #ffffff;
+	background: #000;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-color: #6baeaa;
+}
+
+.chefs {
+	color: #fff;
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 16px;
+	text-align: justify;
+	display: block;
+	clear: left;
+	margin-top: 20px;
+}
+
+.chefs img {
+	float: left;
+	width: 30%;
+	max-width: 100px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.chef-name {
+	color: #6baeaa;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: .1em;
+}
+
+.chef-title {
+	color: #7a7a7a;
+	font-size: 13px;
+	letter-spacing: .1em;
+	text-align: left;
+}
+
+.chef-desc {
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0px;
+}
+
+@media (min-width: 650px) { /* this happens when the web frame is larger than 650px */
+	.chefs {
+		color: #fff;
+		width: 42%;
+		font-size: 12px;
+		line-height: 16px;
+		text-align: justify;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.chefs + .chefs {
+		margin-top: 20px;
+		vertical-align: middle;
+	}
+}
+
+.event {
+	padding: 20px;
+}
+
+.event + .event{
+	margin-top: 0px;
+}
+
+.event-title {
+	color: #6baeaa;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+.event-tag {
+	color: #7a7a7a;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: .1em;
+	margin-bottom: 5px;
+}
+
+.event-desc {
+	color: #fff;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0px;
+	padding-left: 20px;
+	padding-right: 10px;
+	line-height: 16px;
+	text-align: justify;
+}
+
+
+
+.directions {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.direction-body {
+	width: auto;
+	max-width: 270px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.direction-text {
+	display: inline;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+.hour-text {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.telephone {
+	display: inline;
+	color: #7a7a7a;
+	letter-spacing: .2em;
+	margin-left: -60px;
+	text-align: left;
+}
+
+.seal {
+	display: inline-block;
+	margin-top: 5px;
+	float: left;
+	margin-left: 10%;
+}
+
+
+@media (min-width: 650px) { /* this happens when the web frame is larger than 650px */
+	.directions {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.direction-body {
+		width: auto;
+		margin: 5px auto;
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.direction-body + .direction-body {
+		margin-left: 20px;
+	}
+	.direction-text {
+		display: inline-block;
+		color: #fff;
+		font-size: 14px;
+		line-height: 18px;
+		margin-left: 10px;
+		margin-bottom: 5px;
+	}
+	.hour-text {
+		display: inline-block;
+		color: #fff;
+		font-size: 14px;
+		line-height: 18px;
+		margin-left: 10px;
+		margin-bottom: 5px;
+	}
+	.telephone {
+		display: inline;
+		color: #7a7a7a;
+		letter-spacing: .2em;
+		margin-left: 0px;
+	}
+
+	.seal {
+		display: inline;
+		margin-top: 18px;
+		margin-left: 0px;
+		float: left;
+	}
+}
+
+.embed-container {
+	position: relative;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 500px) { /* this happens when the web frame is larger than 500px */
+		.embed-container {
+		position: relative;
+		padding-bottom: 30%;
+		height: 0;
+		left: 0;
+		margin-right: 0px;
+		overflow: hidden;
+		max-width: 100%;
+	}
+
+	.embed-container iframe, .embed-container object, .embed-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
